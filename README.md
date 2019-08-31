@@ -5,7 +5,7 @@ A Development Case for EnergyWorx
 
 For creating and activating a standard python virtual environment do:
 
-```python3 -m venv ewx_env -> source /ewx_env/bin/activate```
+```python3 -m venv ewx_env && source /ewx_env/bin/activate```
 
 A custom env(Anaconda etc) or existing venv can be used.
 
