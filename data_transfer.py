@@ -27,6 +27,7 @@ def update_shortcode(shortcode):
     conn.execute("UPDATE Url_Shorten SET RedirectCount= '{}', LastRedirect = '{}'  WHERE ShortCode = '{}'"
                  .format(redirect_count, now, shortcode))
 
+
 def delete_shortcode_for_test(shortcode):
     conn = db_connect.connect()
     conn.execute("DELETE FROM Url_Shorten WHERE ShortCode = '{}';"
