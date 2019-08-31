@@ -1,14 +1,15 @@
 # EnergyWorx_Case
 A Development Case for EnergyWorx
 
-# Virtual Environment:
-The whole virtual environment with all needed libs for running this piece of code is present in this repository. 
+# Virtual Environment: 
 
-For accessing it clone the repo and do:
+For creating and activating a standard python virtual environment do:
 
-cd /$REPO_HOME -> source ewx_env/bin/activate
+python3 -m venv ewx_env -> source /ewx_env/bin/activate
 
-If the reader wants to create a custom env(Anaconda or others) from scratch he can, for setting up all the dependencies he shuld run:
+A custom env(Anaconda etc) or existing venv can be used.
+
+For setting up all the necessary dependencies one should run:
 
 pip install -r requirements.txt  
 
