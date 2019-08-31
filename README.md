@@ -44,4 +44,4 @@ To run the unit tests run:
 
 If more time was available to do this case I'd definetly implement some logging for the back end server. But most important: I'd improve the testing to include the actual endpoint calls and assert for all their HTTP responses, and jsons where it applies. I started to implement it using requests lib, but decided not to include this and deliver the code on the mark of 24 hours past I got the case. I tried to cover all the methods used in the endpoints though. 
 
-Hope this suffices, sincerely, Andr Araújo.
+Hope this suffices, sincerely, André Araújo.
