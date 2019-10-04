@@ -1,7 +1,7 @@
 # EnergyWorx_Case
 A Development Case for EnergyWorx
 
-# Virtual Environment: 
+## Virtual Environment: 
 
 For creating and activating a standard python virtual environment do:
 
